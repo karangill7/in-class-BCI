@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+/* Universal */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+}
+
+li {
+	width: 70px;
+	display: inline-block;
+}
+
+.font-nova {
+	font-family: 'Amatic SC', cursive;
+}
+
+.line-height {
+	line-height: 30px;
+}
+
+/* Universal ends */
+
+/* Header */
+.main-nav {
+	background-color: rgba(255, 192, 203, .7);
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.navlinks {
+	margin-right: 20px;
+}
+
+.logo {
+	height: 65px;
+}
+
+.link {
+	color: purple;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: red;
+}
+
+/* Header ends*/
+
+/* Hero */
+.hero {
+	height: 700px;
+	background-image: url(../images/brush.jpeg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.hero-content {
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: auto;
+	width: 600px;
+	margin-top: 300px;
+	padding: 15px;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.center {
+	padding: 70px;
+	position: relative;
+}
+
+/* Hero ends */
+
+/* Content */
+
+.content {
+	padding: 50px;
+}
+
+.center-intro {
+	text-align: center;
+	border-style: ridge;
+	border-radius: 10px;
+}
+
+.text-upper {
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.text-justified {
+	text-align: justify;
+	padding: 20px;
+	border-style: ridge;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.columns {
+	padding: 10px 0;
+	position: relative;
+}
+
+.column1 {
+	width: 45%;
+	position: relative;
+}
+
+.selfie {
+	width: 80%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-style: ridge;
+	border-radius: 10px;
+}
+
+.column2 {
+	width: 55%;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: 100px;
+	height: 385px;
+	border-style: ridge;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.center-text-upper {
+	text-align: center;
+}
+
+/* Content ends */
+
+/* Footer */
+
+.footer {
+	bottom: 0;
+	height: 75px;
+	width: 100%;
+	background-color: rgba(255, 192, 203, .7);
+	position: fixed;
+}
+
+.social-media {
+	position: absolute;
+	left: 37%;
+}
+
+.copyright {
+	position: absolute;
+	top: 34px;
+	left: 46%;
+}
+
+.fa:hover {
+	opacity: 0.3;
+	color: red;
+}
+
+/* Footer ends */

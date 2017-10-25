@@ -1,0 +1,51 @@
+.contact-container {
+    margin-top: 65px;
+    padding: 50px;
+    background-color: rgba(255, 192, 203, .2);
+}
+
+.heading {
+    position: absolute;
+    left: 30px;
+    opacity: .6;
+    top: 40px;
+    width: 40%;
+    border-style: ridge;
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
+    padding: 10px;
+}
+
+.info-map {
+    height: 500px;
+    position: relative;
+    border-style: ridge;
+    border-width: 10px;
+    margin-bottom: 50px;
+    background-image: url(../images/pink.jpeg);
+    
+}
+
+.info {
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    border-style: ridge;
+    left:90px;
+    background-color: rgba(0, 0, 0, .1);
+    opacity: .7;
+    
+}
+
+.map {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.contact-form {
+    border-style: ridge;
+    border-width: 10px;
+}
